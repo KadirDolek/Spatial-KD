@@ -22513,6 +22513,8 @@ ul {
 
 .Sec4 {
   height: 105vh;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 .Sec4 div #sec4p1 {
   font-size: 40px;
@@ -22525,18 +22527,38 @@ ul {
   margin-left: 10%;
   font-size: 25px;
   color: rgb(172, 172, 174);
+  margin-bottom: 10%;
 }
 .Sec4 div .sec4MoyenneDiv, .Sec4 div .sec4MoyenneDiv2 {
   display: flex;
+  gap: 10%;
+  margin-bottom: 5%;
 }
-.Sec4 div .sec4MoyenneDiv .imgSection4, .Sec4 div .sec4MoyenneDiv2 .imgSection4 {
+.Sec4 div .sec4MoyenneDiv .sec4petitDiv, .Sec4 div .sec4MoyenneDiv .sec4petitDiv2, .Sec4 div .sec4MoyenneDiv .sec4petitDiv3, .Sec4 div .sec4MoyenneDiv .sec4petitDiv4, .Sec4 div .sec4MoyenneDiv2 .sec4petitDiv, .Sec4 div .sec4MoyenneDiv2 .sec4petitDiv2, .Sec4 div .sec4MoyenneDiv2 .sec4petitDiv3, .Sec4 div .sec4MoyenneDiv2 .sec4petitDiv4 {
+  width: 50%;
+}
+.Sec4 div .sec4MoyenneDiv .sec4petitDiv .imgSection4, .Sec4 div .sec4MoyenneDiv .sec4petitDiv2 .imgSection4, .Sec4 div .sec4MoyenneDiv .sec4petitDiv3 .imgSection4, .Sec4 div .sec4MoyenneDiv .sec4petitDiv4 .imgSection4, .Sec4 div .sec4MoyenneDiv2 .sec4petitDiv .imgSection4, .Sec4 div .sec4MoyenneDiv2 .sec4petitDiv2 .imgSection4, .Sec4 div .sec4MoyenneDiv2 .sec4petitDiv3 .imgSection4, .Sec4 div .sec4MoyenneDiv2 .sec4petitDiv4 .imgSection4 {
   border-radius: 50%;
   border: solid 7px rgb(227, 227, 227);
-  height: 60%;
+  height: 110%;
 }
 
 .divText4 {
   flex-direction: column;
+}
+.divText4 #text4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.divText4 #text4bis {
+  color: rgb(185, 185, 193);
+  font-size: 17px;
+  margin-top: -2%;
+}
+.divText4 #text4bis2 {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */
