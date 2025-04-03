@@ -21,6 +21,7 @@ nav, header
 header 
     .divHeader
         @include flex-center
+        flex-direction: column
         margin-top: 15%
         color: red
         padding-left: 25%
@@ -52,5 +53,25 @@ ul
 .nav-link
     color: white;
     text-decoration: none;
+
+
+.Sec2
+    display: flex
+    height: 50vh
+    .sec2div1, .sec2div2
+        width: 50%
+    .sec2div1
+        @include flex-center
+        flex-direction: column
+        padding-left: 15%
+        .p1Sec2
+            font-size: 30px
+            font-weight: bold
+            margin-top: 10%
+        .p2Sec2
+            letter-spacing: 1px
+            color: rgb(197, 183, 174)
+            
+        
  
     
