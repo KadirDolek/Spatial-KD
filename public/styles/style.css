@@ -22311,6 +22311,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  margin-top: 0;
+  overflow-x: hidden;
+}
+
 .secHeader {
   position: relative;
   background: url("../../public/assets/img/banner.jpg");
@@ -22328,6 +22333,16 @@ textarea.form-control-lg {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 0;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+nav {
+  margin-top: 0;
+  position: relative;
 }
 
 nav, header {
@@ -22373,17 +22388,23 @@ header .divHeader button {
   color: white;
   font-weight: 400;
   position: absolute;
-  transform: translateX(45px) translateY(30px);
+  transform: translateX(45px) translateY(25px);
+}
+
+.navbar-toggler {
+  margin-right: 10px;
+  margin-top: 5%;
 }
 
 ul {
   position: relative;
-  transform: translateX(-45px) translateY(24px);
+  transform: translateX(-45px) translateY(30px);
 }
 
-.nav-link {
+.nav-link, #home {
   color: white;
   text-decoration: none;
+  padding-top: 0;
 }
 
 .Sec2 {
@@ -22483,6 +22504,24 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.collapse {
+  display: flex;
+  justify-content: end;
+}
+
+.Sec4 {
+  height: 105vh;
+}
+.Sec4 div #sec4p1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.Sec4 div #sec4p2 {
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

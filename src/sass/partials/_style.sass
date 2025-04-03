@@ -1,5 +1,7 @@
 @use './_mixins' as *
-body  
+body
+    margin-top: 0 
+    overflow-x: hidden
 .secHeader
     position: relative
     background: url('../../public/assets/img/banner.jpg')
@@ -14,7 +16,12 @@ body
         height: 100%
         background-color: rgba(0, 0, 0, 0.5)
         z-index: 0
-
+.navbar 
+    padding-top: 0;
+    padding-bottom: 0;
+nav
+    margin-top: 0
+    position: relative
 nav, header 
         position: relative;
         z-index: 1;
@@ -44,15 +51,19 @@ header
     color: white
     font-weight: 400
     position: absolute
-    transform: translateX(45px) translateY(30px)
+    transform: translateX(45px) translateY(25px)
+.navbar-toggler
+    margin-right: 10px
+    margin-top: 5%
 
 ul  
     position: relative
-    transform: translateX(-45px) translateY(24px)
+    transform: translateX(-45px) translateY(30px)
 
-.nav-link
+.nav-link, #home
     color: white;
     text-decoration: none;
+    padding-top: 0 
 
 
 .Sec2
@@ -127,7 +138,22 @@ ul
     height: 40rem
 .card-body
     @include flex-center
-    
+
+.collapse
+    display: flex
+    justify-content: end
+
+.Sec4
+    height: 105vh
+    div
+        #sec4p1
+            font-size: 40px
+            font-weight: bold
+            margin-left: 10%
+            margin-top: 10%
+        #sec4p2
+            font-size: 15px
+
     
 
             
