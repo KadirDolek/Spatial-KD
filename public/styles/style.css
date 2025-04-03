@@ -22317,9 +22317,6 @@ body {
   background-position: 10% 5%;
   height: 100vh;
 }
-body spaNav {
-  color: white;
-}
 
 header .divHeader {
   display: flex;
@@ -22328,6 +22325,10 @@ header .divHeader {
   flex-direction: column;
   margin-top: 20%;
   color: red;
+}
+
+.spaNav {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
