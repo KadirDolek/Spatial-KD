@@ -22535,4 +22535,8 @@ ul {
   height: 60%;
 }
 
+.divText4 {
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=style.css.map */
