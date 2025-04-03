@@ -22422,4 +22422,67 @@ ul {
   line-height: 37px;
 }
 
+.Sec3 {
+  height: 140vh;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Sec3 .section3div1 {
+  margin-bottom: 7%;
+  margin-top: 7%;
+}
+.Sec3 .section3div1 #titreSection3 {
+  font-size: 65px;
+}
+.Sec3 .section3div1 #s3div1 {
+  color: rgb(173, 176, 192);
+  font-size: 30px;
+  font-weight: lighter;
+}
+.Sec3 .section3div2 {
+  display: flex;
+  justify-content: inline;
+  gap: 5%;
+}
+.Sec3 .section3div2 .card {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.Sec3 .section3div3 {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  gap: 8%;
+}
+.Sec3 .section3div3 button {
+  width: 12vw;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 9%;
+  padding-right: 9%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.Sec3 .section3div3 .btnRouge {
+  background-color: rgb(243, 40, 83);
+  font-size: 16px;
+}
+.Sec3 .section3div3 .btnNoir {
+  background-color: rgb(50, 48, 55);
+}
+
+.card {
+  height: 40rem;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
