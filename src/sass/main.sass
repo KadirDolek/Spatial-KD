@@ -1,0 +1,28 @@
+
+@use './partials/_variables' as *
+
+@use './partials/_icons'
+
+@use './partials/_mixins' as *
+
+@use '../../node_modules/bootstrap/scss/bootstrap.scss' with (
+    $primary: $primar
+)
+
+body
+    background: url('../../public/assets/img/banner.jpg')
+    @include bg-size
+    
+header 
+    .divHeader
+        @include flex-center
+        margin-top: 20%
+        color: red
+.spaNav
+    color: white
+
+
+
+    
+    
+    
