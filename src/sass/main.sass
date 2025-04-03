@@ -6,23 +6,7 @@
 @use './partials/_mixins' as *
 
 @use '../../node_modules/bootstrap/scss/bootstrap.scss' with (
-    $primary: $primar
+    $secondary: $primar
+    
 )
-
-body
-    background: url('../../public/assets/img/banner.jpg')
-    @include bg-size
-    
-header 
-    .divHeader
-        @include flex-center
-        margin-top: 20%
-        color: red
-.spaNav
-    color: white
-
-
-
-    
-    
-    
+@use './partials/_style'
