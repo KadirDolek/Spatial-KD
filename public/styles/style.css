@@ -22347,7 +22347,7 @@ header .divHeader {
 }
 header .divHeader h1 {
   color: white;
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 5%;
 }
 header .divHeader p {
@@ -22360,11 +22360,12 @@ header .divHeader p {
 header .divHeader button {
   background-color: rgb(243, 40, 83);
   color: white;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
   border-radius: 5px;
   border: none;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -22387,7 +22388,7 @@ ul {
 
 .Sec2 {
   display: flex;
-  height: 50vh;
+  height: 60vh;
 }
 .Sec2 .sec2div1, .Sec2 .sec2div2 {
   width: 50%;
@@ -22397,16 +22398,28 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-left: 15%;
+  padding-left: 16%;
+  letter-spacing: 1px;
 }
 .Sec2 .sec2div1 .p1Sec2 {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  margin-top: 10%;
 }
 .Sec2 .sec2div1 .p2Sec2 {
+  font-size: 28px;
   letter-spacing: 1px;
   color: rgb(197, 183, 174);
+  margin-right: 2%;
+}
+.Sec2 .sec2div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  flex-direction: column;
+  padding-right: 20%;
+  font-size: 18px;
+  line-height: 37px;
 }
 
 /*# sourceMappingURL=style.css.map */
