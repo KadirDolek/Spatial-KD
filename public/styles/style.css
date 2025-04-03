@@ -22316,7 +22316,7 @@ body {
   background-size: cover;
   background-position: 10% 5%;
   height: 100vh;
-  background-position: fixed;
+  background-attachment: fixed;
 }
 body::before {
   content: "";
@@ -22336,8 +22336,8 @@ header .divHeader {
   flex-direction: column;
   margin-top: 15%;
   color: red;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 header .divHeader h1 {
   color: white;
@@ -22347,9 +22347,19 @@ header .divHeader h1 {
 header .divHeader p {
   color: white;
   margin-bottom: 5%;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: rgb(170, 170, 170);
 }
 header .divHeader button {
-  background-color: red;
+  background-color: rgb(243, 40, 83);
+  color: white;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
 }
 
 .spaNav {
