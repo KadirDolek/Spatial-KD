@@ -164,7 +164,6 @@ ul
             margin-bottom: 10%
         .sec4MoyenneDiv, .sec4MoyenneDiv2
             display: flex
-            flex-wrap: wrap
             gap: 10%
             .sec4petitDiv, .sec4petitDiv2, .sec4petitDiv3, .sec4petitDiv4
                 width: 100%
@@ -250,7 +249,9 @@ footer
             padding-right: 30px
             
 
-@media (min-width: 768px) and (max-width: 1024px)
+@media (min-width: 668px) and (max-width: 1024px)
+  body
+      overflow-x: hidden
   header
     .divHeader
       @include flex-center
@@ -323,9 +324,12 @@ footer
     border: none
     border-radius: 5px
     font-weight: bold
-
+  .Sec4
+        height: 110vh
+        padding-left: 8%
+        padding-right: 8%
   .sec4MoyenneDiv, .sec4MoyenneDiv2
-            flex-wrap: none
+            flex-wrap: wrap
             gap: 10%
             margin-bottom: 5%
   .sec4petitDiv, .sec4petitDiv2, .sec4petitDiv3, .sec4petitDiv4
@@ -376,12 +380,11 @@ footer
             color: rgb(170, 170, 170)
             font-size: 20px
             letter-spacing: 0.5px
-
-
-
+        .section4debut
+            margin-top: 5%
         
+@media (max-width: 767px)
+    body
+        overflow-x: hidden
 
-
-          
- 
     
