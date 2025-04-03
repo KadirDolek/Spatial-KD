@@ -22579,5 +22579,52 @@ ul {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 0;
 }
+.Sec5 .divSec5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.Sec5 .divSec5 .textsec5 {
+  margin-top: 5%;
+  font-size: 55px;
+  margin-bottom: 1.5%;
+}
+.Sec5 .divSec5 button {
+  background-color: rgb(243, 40, 83);
+  color: white;
+  padding: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
+  color: white;
+  margin-top: 3%;
+}
+.Sec5 .textsec5bis {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(170, 170, 170);
+  font-size: 30px;
+  letter-spacing: 0.5px;
+}
+
+footer {
+  height: 30vh;
+}
+footer .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  margin-top: 8%;
+  font-size: 35px;
+  gap: 5%;
+  opacity: 50%;
+}
 
 /*# sourceMappingURL=style.css.map */

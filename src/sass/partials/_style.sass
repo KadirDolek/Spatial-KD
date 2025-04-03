@@ -201,12 +201,39 @@ ul
         height: 100%
         background-color: rgba(0, 0, 0, 0.5)
         z-index: 0
-
+    .divSec5
+        @include flex-center
+        flex-direction: column
+        color: white
+        position: relative
+        z-index:1
+        .textsec5
+            margin-top: 5%
+            font-size: 55px
+            margin-bottom: 1.5%
+        button
+            @include bouton
+            color: white 
+            margin-top: 3%
+                
             
-
+    .textsec5bis
+        font-weight: 400
+        text-transform: uppercase
+        color: rgb(170, 170, 170)
+        font-size: 30px
+        letter-spacing: 0.5px
     
     
-
+footer
+    height: 30vh
+    .logo
+        @include flex-center
+        color: grey
+        margin-top: 8% 
+        font-size: 35px
+        gap: 5%
+        opacity: 50%
 
           
  
