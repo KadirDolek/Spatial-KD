@@ -42,6 +42,7 @@ header
             margin-bottom: 5%
             font-weight: 100
             text-transform: uppercase
+            font-size: 25px
             color: rgb(170, 170, 170)
         button
             @include bouton
@@ -163,10 +164,10 @@ ul
             margin-bottom: 10%
         .sec4MoyenneDiv, .sec4MoyenneDiv2
             display: flex
+            flex-wrap: wrap
             gap: 10%
-            margin-bottom: 5%
             .sec4petitDiv, .sec4petitDiv2, .sec4petitDiv3, .sec4petitDiv4
-                width: 50%
+                width: 100%
                 .imgSection4
                     border-radius: 50%
                     border: solid 7px rgb(227, 227, 227)
@@ -249,6 +250,136 @@ footer
             padding-right: 30px
             
 
+@media (min-width: 768px) and (max-width: 1024px)
+  header
+    .divHeader
+      @include flex-center
+      flex-direction: column
+      margin-top: 15%
+      padding-left: 25%
+      padding-right: 25%
+
+      h1
+        color: white
+        font-size: 45px
+        margin-bottom: 7%
+
+      p
+        color: rgb(170, 170, 170)  // Fixe la couleur ici
+        font-size: 17px
+        margin-bottom: 7%
+        font-weight: 400
+        text-transform: uppercase
+
+      button
+        background-color: rgb(243, 40, 83)
+        color: white
+        padding: 15px
+        padding-left: 40px
+        padding-right: 40px
+        border-radius: 5px
+        border: none
+        font-size: 18px
+        font-weight: bold
+
+  .sec2div2
+    font-size: 15px !important
+    margin-left: 10%
+    margin-bottom: 3%
+
+  .p1Sec2
+    font-size: 25px !important
+
+  .p2Sec2
+    font-size: 14px !important
+    font-weight: bold
+    margin-left: 5%
+
+  .sec2div1
+    margin-left: -10%
+  .Sec3
+    height: 100vh
+    background-color: rgb(246, 246, 246)
+    display: flex
+    align-items: center
+    flex-direction: column
+  #titreSection3
+    font-size: 30px !important
+
+  #s3div1
+    color: rgb(173, 176, 192)
+    font-size: 18px !important
+    font-weight: light
+  .card
+    width: 400px !important
+    height: 400px !important
+  button
+    width: 25vw !important
+    padding-top: 3%
+    padding-bottom: 3%
+    padding-left: 9%
+    padding-right: 9%
+    color: white
+    border: none
+    border-radius: 5px
+    font-weight: bold
+
+  .sec4MoyenneDiv, .sec4MoyenneDiv2
+            flex-wrap: none
+            gap: 10%
+            margin-bottom: 5%
+  .sec4petitDiv, .sec4petitDiv2, .sec4petitDiv3, .sec4petitDiv4
+            width: 100%
+  .imgSection4
+            border-radius: 50%
+            border: solid 7px rgb(227, 227, 227)
+            height: 180px
+  .divText4
+    display: flex
+    flex-wrap: wrap
+    #text4
+    flex-wrap: wrap
+    font-size: 20px
+    #text4bis
+        color: rgb(185, 185, 193)
+        font-size: 17px
+        margin-top: -2%
+    #text4bis2
+        font-size: 15px
+        letter-spacing: 0.5px
+        line-height: 20px
+  .divSec5
+        @include flex-center
+        flex-direction: column
+        color: white
+        position: relative
+        z-index:1
+        .textsec5
+            margin-top: 5%
+            font-size: 35px !important
+            margin-bottom: 2.5%
+        button
+            background-color: rgb(243, 40, 83)
+            color: white
+            padding: 20px
+            padding-left: 30px
+            padding-right: 3px
+            border-radius: 5px
+            border: none
+            font-size: 15px !important
+            color: white 
+            margin-top: 3%
+                
+        .textsec5bis
+            font-weight: 400
+            text-transform: uppercase
+            color: rgb(170, 170, 170)
+            font-size: 20px
+            letter-spacing: 0.5px
+
+
+
+        
 
 
           
