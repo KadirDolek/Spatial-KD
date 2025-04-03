@@ -1,0 +1,52 @@
+@use './_mixins' as *
+body
+    background: url('../../public/assets/img/banner.jpg')
+    @include bg-size
+    background-position: fixed
+    &::before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0.5)
+        z-index: -1
+    
+header 
+    .divHeader
+        @include flex-center
+        margin-top: 15%
+        color: red
+        padding-left: 30%
+        padding-right: 30%
+        h1
+            color: white 
+            font-size: 40px  
+            margin-bottom: 5%
+        p
+            color: white
+            margin-bottom: 5%
+        button
+            @include bouton
+            
+
+.spaNav
+    color: white
+    font-weight: 400
+    position: absolute
+    transform: translateX(45px) translateY(30px)
+
+ul  
+    position: relative
+    transform: translateX(-45px) translateY(24px)
+
+.nav-link
+    color: white;
+    text-decoration: none;
+
+
+
+    
+    
+    
