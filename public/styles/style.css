@@ -22681,6 +22681,7 @@ footer .footerText .Design {
     font-size: 15px !important;
     margin-left: 10%;
     margin-bottom: 3%;
+    line-height: 25px !important;
   }
   .p1Sec2 {
     font-size: 25px !important;
@@ -22831,6 +22832,9 @@ footer .footerText .Design {
     font-weight: bold;
     width: 70% !important;
   }
+  .Sec2 {
+    height: 90vh !important;
+  }
   .sec2div2 {
     font-size: 15px !important;
     margin-left: 10%;
@@ -22838,10 +22842,10 @@ footer .footerText .Design {
     line-height: 25px !important;
   }
   .p1Sec2 {
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
   .p2Sec2 {
-    font-size: 14px !important;
+    font-size: 12px !important;
     font-weight: bold;
     margin-left: 5%;
   }
