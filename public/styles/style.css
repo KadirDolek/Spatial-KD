@@ -22641,7 +22641,7 @@ footer .footerText .Design {
   padding-right: 30px;
 }
 
-@media (min-width: 668px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 992px) {
   body {
     overflow-x: hidden;
   }
@@ -22794,9 +22794,165 @@ footer .footerText .Design {
     margin-top: 5%;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+  header .divHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  header .divHeader h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 7%;
+  }
+  header .divHeader p {
+    color: rgb(170, 170, 170);
+    font-size: 17px;
+    margin-bottom: 7%;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  header .divHeader button {
+    background-color: rgb(243, 40, 83);
+    color: white;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 70% !important;
+  }
+  .sec2div2 {
+    font-size: 15px !important;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    line-height: 25px !important;
+  }
+  .p1Sec2 {
+    font-size: 25px !important;
+  }
+  .p2Sec2 {
+    font-size: 14px !important;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  .sec2div1 {
+    margin-left: -10%;
+  }
+  .Sec3 {
+    height: 125vh;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #titreSection3 {
+    font-size: 30px !important;
+  }
+  #s3div1 {
+    color: rgb(173, 176, 192);
+    font-size: 18px !important;
+    font-weight: light;
+  }
+  .section3div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+  .card {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  button {
+    width: 30vw !important;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 9%;
+    padding-right: 9%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .Sec4 {
+    height: 110vh;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .sec4MoyenneDiv, .sec4MoyenneDiv2 {
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-bottom: 5%;
+  }
+  .sec4petitDiv, .sec4petitDiv2, .sec4petitDiv3, .sec4petitDiv4 {
+    width: 100%;
+  }
+  .imgSection4 {
+    border-radius: 50%;
+    border: solid 7px rgb(227, 227, 227);
+    height: 180px;
+  }
+  .divText4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+  .divText4 #text4bis {
+    color: rgb(185, 185, 193);
+    font-size: 17px;
+    margin-top: -2%;
+  }
+  .divText4 #text4bis2 {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+  }
+  .divSec5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+  .divSec5 .textsec5 {
+    margin-top: 5%;
+    font-size: 35px !important;
+    margin-bottom: 2.5%;
+  }
+  .divSec5 button {
+    background-color: rgb(243, 40, 83);
+    color: white;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 3px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px !important;
+    color: white;
+    margin-top: 3%;
+    width: 30% !important;
+  }
+  .divSec5 .textsec5bis {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(170, 170, 170);
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  .divSec5 .section4debut {
+    margin-top: 5%;
   }
 }
 
